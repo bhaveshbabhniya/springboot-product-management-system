@@ -39,14 +39,13 @@ springboot-product-management-system/
 │   ├── main/
 │   │   ├── java/
 │   │   │   └── com/
-│   │   │       └── example/
-│   │   │           └── productcatalog/
+│   │   │       └── springboot/
+│   │   │           └── product_management_system/
 │   │   │               ├── controller/
 │   │   │               │   └── ProductController.java
 │   │   │               │
 │   │   │               ├── dto/
 │   │   │               │   ├── ProductDTO.java
-│   │   │               │   └── ProductRequestDTO.java
 │   │   │               │
 │   │   │               ├── entity/
 │   │   │               │   └── Product.java
@@ -58,16 +57,10 @@ springboot-product-management-system/
 │   │   │               │   ├── ProductService.java
 │   │   │               │   └── ProductServiceImpl.java
 │   │   │               │
-│   │   │               ├── config/
-│   │   │               │   └── AppConfig.java  (for ModelMapper bean)
-│   │   │               │
 │   │   │               └── ProductManagementSystemApplication.java
 │   │   │
 │   │   └── resources/
 │   │       ├── application.properties
-│   │       └── static/          (if needed for frontend resources)
-│   │       └── templates/       (if using Thymeleaf)
-│
 ├── pom.xml
 └── README.md
 ```
